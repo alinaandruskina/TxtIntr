@@ -1,12 +1,12 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -std=c99
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17
 TARGET = calc
-SRCS = main.c
+SRCS = main.cpp
 
 all: $(TARGET)
 
 $(TARGET): $(SRCS)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCS)
 
 clean:
 	rm -f $(TARGET)
