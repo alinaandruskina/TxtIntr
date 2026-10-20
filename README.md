@@ -2,6 +2,6 @@
 
 Простая программа-калькулятор на C++ для сложения и вычитания чисел.
 Пример:
-./calc -o summa 10 20 5/n
-./calc -o subtraction 100 20 10/n
-./calc -h/n
+./calc -o summa 10 20 5
+./calc -o subtraction 100 20 10
+./calc -h
